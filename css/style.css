@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+}
+
+/* banner part */
+.container {
+    background: #FFFFFF;
+    width: 1520px;
+}
+
+.banner {
+    background-color: #2D25A0;
+}
+
+.player-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 64px;
+    margin-left: 140px;
+    color: #FFFFFF;
+    margin-top: 207px;
+}
+
+.banner-image img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+}
+
+.banner-title a {
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.fa-arrow-right {
+    font-size: 16px;
+}
+
+/* 2nd part container */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 0%;
+    gap: 10px;
+}
+
+.player {
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-name {
+    font-size: 28px;
+    color: #18191F;
+}
+
+.player-deatils {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.player-about {
+    width: 300px;
+    height: 256px;
+    color: #6C6C6C;
+}
+
+/* last-part */
+.second-banner {
+    background: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.footer-imgae img {
+    width: 483.87px;
+    height: 110px;
+    position: static;
+}
+
+.icon {
+    margin-left: 180px;
+}
+.fillup{
+    
+}
